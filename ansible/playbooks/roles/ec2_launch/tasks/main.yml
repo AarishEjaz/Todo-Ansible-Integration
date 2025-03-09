@@ -28,7 +28,7 @@
   register: security_group
 
 - name: Launch Ec2 instance
-  amason.aws.ec2_instance:
+  amazon.aws.ec2_instance:
     name: Ansible-instance
     key_name: "{{ ec2_key_name }}"
     region: "{{ aws_region }}"
