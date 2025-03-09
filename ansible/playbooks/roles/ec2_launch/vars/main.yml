@@ -1,2 +1,6 @@
 ---
 # vars file for ec2_launch
+aws_region: ap-south-1
+ec2_instance_type: t2.micro
+ec2_ami_id: ami-05c179eced2eb9b5b
+ec2_key_name: ansible-test
