@@ -41,7 +41,7 @@
 - name: Wait for the instance to be ready 
   wait_for: 
     host: "{{ ec2.instances[0].public_dns_name }}"
-    port: 22A
+    port: 22
     delay: 30
     timeout: 300
     state: started
